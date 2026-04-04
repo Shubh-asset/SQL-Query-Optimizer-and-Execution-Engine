@@ -71,7 +71,7 @@ add_executable(query_optimizer
     src/common/utils.cpp
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE
+target_include_directories(query_optimizer PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/src/parser
     ${CMAKE_CURRENT_SOURCE_DIR}/src/optimizer
