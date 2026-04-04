@@ -1,0 +1,10 @@
+^D:\CODING\PROJECTS\QUERY_OPTIMIZER\BUILD\CMAKEFILES\3977CCE0CC3516D782BBECAB0B3155CD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/Projects/query_optimizer -BD:/Coding/Projects/query_optimizer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Coding/Projects/query_optimizer/build/query_optimizer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

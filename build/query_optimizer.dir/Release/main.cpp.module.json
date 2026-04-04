@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "query_optimizer.dir\\Release\\main.obj",
+            "outputs": [
+                "query_optimizer.dir\\Release\\"
+            ],
+            "requires": []
+        }
+    ]
+}
