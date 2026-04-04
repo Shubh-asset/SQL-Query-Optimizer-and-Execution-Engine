@@ -1,0 +1,4 @@
+D:/Coding/Projects/query_optimizer/build/CMakeFiles/query_optimizer.dir
+D:/Coding/Projects/query_optimizer/build/CMakeFiles/RUN_TESTS.dir
+D:/Coding/Projects/query_optimizer/build/CMakeFiles/ALL_BUILD.dir
+D:/Coding/Projects/query_optimizer/build/CMakeFiles/ZERO_CHECK.dir

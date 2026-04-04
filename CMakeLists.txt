@@ -8,7 +8,7 @@ project(query_optimizer
     DESCRIPTION "SQL Query Optimizer and execution engine"
     LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20) # C++20 specified
+set(CMAKE_CXX_STANDARD 17) # C++20 specified
 set(CMAKE_CXX_STANDARD_REQUIRED ON) # ensures c++20 is strictly required such that if it is on and compiler does not support c++20 then it throws error otherwise it will fall back to previous version
 set(CMAKE_CXX_EXTENSION OFF) # gnu++20 to c++20, portability
 
@@ -41,11 +41,12 @@ else() # GCC, Clang or other unix-like compiler
     else()
         add_compile_options(-O2)
 
-        # -O2: optimization level 2
+        # -O2: optimization level 2(standard)
     endif()
 endif()
 
 add_executable(query_optimizer
+
     src/main.cpp
 
     # parser
